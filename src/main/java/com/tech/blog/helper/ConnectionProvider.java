@@ -10,10 +10,18 @@ public class ConnectionProvider {
     public static Connection getConnection() {
         try {
             if (connection == null) {
-                Class.forName("org.apache.derby.jdbc.ClientDriver");
+                //For derby database
+                /*Class.forName("org.apache.derby.jdbc.ClientDriver");
                 String user = "globalids";
                 String password = "globalids";
-                connection = DriverManager.getConnection("jdbc:derby://192.168.33.55:1527/TEMP;ssl=basic", user, password);
+                connection = DriverManager.getConnection("jdbc:derby://192.168.33.55:1527/TEMP;ssl=basic", user, password);*/
+
+                //For MySql database
+                Class.forName("com.mysql.jdbc.Driver");
+                String user = "root";
+                String password = "developer";
+                String url = "jdbc:mysql://localhost:3306/TechBlog";
+                connection = DriverManager.getConnection(url, user, password);
             }
         } catch (Exception e) {
             e.printStackTrace();

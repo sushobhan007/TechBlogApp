@@ -8,11 +8,7 @@
 <link href="css/myStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<h2>Hello World!</h2>
-<%
-    Connection connection1 = ConnectionProvider.getConnection();
-%>
-<h1><%= connection1 %></h1>
+<%@ include file="normal_navbar.jsp" %>
 
 <!--JS-->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

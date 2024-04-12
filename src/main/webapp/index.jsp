@@ -11,6 +11,7 @@
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
    </head>
    <body>
       <!-------------------------------------------------------NavBar------------------------------------------------------->
@@ -29,7 +30,7 @@
                   An implementation of a programming language in the form of a compiler or interpreter allows programs to be executed,
                   either directly or by producing what's known in programming as an executable.
                </p>
-               <button class="btn btn-outline-light btn-lg"><span class="fi fi-ss-route"></span> Start! It's Free</button>
+               <a href="registration_page.jsp" class="btn btn-outline-light btn-lg"><span class="fi fi-rr-bicycle-journey"></span> Start! It's Free</a>
                <a href="login_page.jsp" class="btn btn-outline-light btn-lg"><span class="fi fi-rr-user-pen"></span> Login</a>
             </div>
          </div>

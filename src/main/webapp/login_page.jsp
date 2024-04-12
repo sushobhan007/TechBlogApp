@@ -21,13 +21,14 @@
                   <div class="card">
                      <div class="card-header primary-background text-white text-center">
                         <span class="fi fi-rr-user-pen fa-3x"></span>
+                        <br>
                         <p>Login Here</p>
                      </div>
                      <div class="card-body">
                         <form>
                           <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                           </div>
                           <div class="form-group">
